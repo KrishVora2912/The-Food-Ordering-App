@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.footer{
+    border-top: 1px solid black;
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    width: 100vw;
+    z-index: 10;
+    background-color: #f0f0f0;
+}
+
+#brandLogo {
+    width: 12vw;
+    height: 10vh;
+}
+
+.navLinks > ul{
+    display: flex;
+}
+
+.navLinks > ul > li{
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+
+.restCardContainer{
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #f0f0f0;
+    width: 400px;
+    height: 250px;
+    
+}
+
+.shimmer-more-rest-container{
+    display: flex;
+}
+
+.shimmer-more-rest-card{ 
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #f0f0f0;
+    width: 400px;
+    height: 250px;}
+
+.restCardContainer:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.restCardContainer img{
+    width: 180px;      /* Make the image take up the full width of the div */
+    height: 100px; 
+}
+
+.restMenuItemCardContainer{
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #f0f0f0;
+    width: 200px;
+    height: 250px;
+    
+}
+
+.restMenuItemCardContainer:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.restMenuItemCardContainer img{
+    width: 180px;      /* Make the image take up the full width of the div */
+    height: 100px; 
+}
+
+.restaurantMenu{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.restaurantContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-rated-all-restaurants-btn-container{
+    margin: 10px;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card{
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #f0f0f0;
+    width: 200px;
+    height: 250px;
+}
+.search{
+    margin: 10px;
+}
+
+.searchBtn{
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.filter{
+    display: flex;
+    
+}
+
+.restMenuSubsectionItemsContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
